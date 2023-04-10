@@ -14,6 +14,7 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link href="./css/modern-normalize.min.css" rel="stylesheet" />
     <link href="./css/styles.css" rel="stylesheet" />
     <title>WebStudio</title>
   </head>
@@ -29,8 +30,18 @@
           </ul>
         </nav>
         <ul class="social-links container-kontact">
-          <li><a class="header-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a class="header-link" href="tel:+48111111111">+48&nbsp;111&nbsp;111&nbsp;111</a></li>
+          <li>
+            <a class="header-link" href="mailto:info@devstudio.com">
+              <svg class="mail-icon"><use href="./images/icons.svg#icon-envelope"></use></svg
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="header-link" href="tel:+48111111111"
+              ><svg class="phone-icon"><use href="./images/icons.svg#icon-Vector2"></use></svg
+              >+48&nbsp;111&nbsp;111&nbsp;111</a
+            >
+          </li>
         </ul>
       </div>
     </header>
@@ -125,6 +136,20 @@
                 <h3>John Doe</h3>
                 <p>Product Designer</p>
               </div>
+              <div class="">
+                <svg class="person-icon" width="20" height="20">
+                  <use href="./images/icons.svg#icon-instagram-2"></use>
+                </svg>
+                <svg class="person-icon" width="20" height="20">
+                  <use href="./images/icons.svg#icon-Vector-1"></use>
+                </svg>
+                <svg class="person-icon" width="20" height="20">
+                  <use href="./images/icons.svg#icon-Vector"></use>
+                </svg>
+                <svg class="person-icon" width="20" height="20">
+                  <use href="./images/icons.svg#icon-linkedin-1"></use>
+                </svg>
+              </div>
             </li>
             <li class="color-card">
               <img
@@ -151,6 +176,35 @@
                 <h3>John Doe</h3>
                 <p>Ul Designer</p>
               </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container">
+          <h2>Nasi klienci</h2>
+          <ul class="customer-grup">
+            <li>
+              <svg class="customer">
+                <use class="client" href="./images/icons.svg#icon-group-1"></use>
+              </svg>
+            </li>
+            <li>
+              <svg class="customer"><use href="./images/icons.svg#icon-group"></use></svg>
+            </li>
+            <li>
+              <svg class="customer" width="170" height="92">
+                <use href="./images/icons.svg#icon-group-2"></use>
+              </svg>
+            </li>
+            <li>
+              <svg class="customer"><use href="./images/icons.svg#icon-group-3"></use></svg>
+            </li>
+            <li>
+              <svg class="customer"><use href="./images/icons.svg#icon-group-4"></use></svg>
+            </li>
+            <li>
+              <svg class="customer"><use href="./images/icons.svg#icon-group-5"></use></svg>
             </li>
           </ul>
         </div>
