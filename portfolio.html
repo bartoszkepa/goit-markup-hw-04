@@ -14,6 +14,7 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link href="./css/modern-normalize.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Portfolio</title>
   </head>
@@ -30,10 +31,14 @@
         </nav>
         <ul class="social-links container-kontact">
           <li>
-            <a class="header-link-kontact" href="mailto:info@devstudio.com">info@devstudio.com</a>
+           <a class="header-link" href="mailto:info@devstudio.com">
+              <svg class="mail-icon"><use href="./images/icons.svg#icon-envelope"></use></svg
+              >info@devstudio.com</a
+            >
           </li>
           <li>
-            <a class="header-link-kontact" href="tel:+48111111111"
+            <a class="header-link" href="tel:+48111111111"
+              ><svg class="phone-icon"><use href="./images/icons.svg#icon-Vector2"></use></svg
               >+48&nbsp;111&nbsp;111&nbsp;111</a
             >
           </li>
@@ -138,6 +143,7 @@
     </main>
     <footer class="main-footer">
       <div class="container footer-container">
+        <div>
         <a class="menu-link" href="/index.html">Web<span class="studio-footer">Studio</span></a>
         <address>
           <ul class="address-color adress-container">
@@ -150,6 +156,29 @@
             </li>
           </ul>
         </address>
+      </div>
+      <div class="icon-conteiner">
+          <h2 class="title-icon">DOŁĄCZ DO NAS</h2>
+          <ul class="footer-team-icon">
+            <a class="footer-socials-link" href="#" target="_blank">
+              <svg class="person-icon" width="20" height="20">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+            <a class="footer-socials-link" href="#" target="_blank">
+              <svg class="person-icon" width="20" height="20">
+                <use href="./images/icons.svg#icon-twitter"></use></svg
+            ></a>
+            <a class="footer-socials-link" href="#" target="_blank">
+              <svg class="person-icon" width="20" height="20">
+                <use href="./images/icons.svg#icon-facebook"></use></svg
+            ></a>
+            <a class="footer-socials-link" href="#" target="_blank">
+              <svg class="person-icon" width="20" height="20">
+                <use href="./images/icons.svg#icon-linkedin"></use></svg
+            ></a>
+          </ul>
+        </div>
       </div>
     </footer>
   </body>
